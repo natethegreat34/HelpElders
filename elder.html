@@ -6,16 +6,14 @@
   </script>
 
   <div id = "classification">
-    <nav>
-      <a href="#elder"> Need Help</a>
-      <a href="#volunteer"> Can Give Help</a>
-    </nav>
-    <select id="position" name="job">
-          <option value="Elderly">Elderly</option>
-          <option value="Volunteer">Volunteer</option>
-    </select>
+    <button onclick= "Elder()"> I am an elder </button>
+    <button onclick= "Volunteer()"> I am an Volunteer </button>
 
-    <button onclick= "fun1()"> Submit </button>
   </div>
 
+
+  <div id = "Need Help?">
+    <h2> Need Help?</h2>
+      <input id= "Task" required>
+      <button onclick= "Addlist()"> Add to List </button>
 </html>
