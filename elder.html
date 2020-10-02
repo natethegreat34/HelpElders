@@ -1,19 +1,52 @@
-<!DOCTYPE html>
-<html>
-  <h1> Help For The Elderly </h1>
+<!doctype html>
+<html lang="en">
 
-  <script type = "text/javascript" src = "help.js">
-  </script>
+<script type = "text/javascript" src = "help.js">
+</script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Signin Template · Bootstrap</title>
 
-  <div id = "classification">
-    <button onclick= "Elder()"> I am an elder </button>
-    <button onclick= "Volunteer()"> I am an Volunteer </button>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
-  </div>
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
-  <div id = "Need Help?">
-    <h2> Need Help?</h2>
-      <input id= "Task" required>
-      <button onclick= "Addlist()"> Add to List </button>
-<iframe src="https://docs.google.com/spreadsheets/d/1JS_2nzK6tB8frM4PcYoh6QMfV7StMruATkM7homrd7g/edit?usp=sharing" width="500" height="500"></iframe></html>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <form class="form-signin">
+
+  <h1 class="h3 mb-3 font-weight-normal">Create A Task</h1>
+  <label for="taskName" class="sr-only">Task Name</label>
+  <input type="text" id="taskName" class="form-control" placeholder="Task Name" required autofocus>
+  <label for="name" class="sr-only">Your Name</label>
+  <input type="text" id="name" class="form-control" placeholder="Name" required>
+  <label for="address" class="sr-only">Your Address</label>
+  <input type="text" id="address" class="form-control" placeholder="Address" required>
+
+  <button class="btn btn-lg btn-primary btn-block" type="button" id="makingTask">Create Task</button>
+</form>
+</body>
+</html>

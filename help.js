@@ -1,12 +1,34 @@
-function Elder(){
-  window.open("https://www.w3schools.com");
-}
-function Volunteer(){
-  window.open("https://www.messenger.com/t/3355852651136126");
-}
-function Addlist(){
-  var hold = document.getElementById("Task").value;
-  var t = document.createTextNode(hold);
-  document.body.appendChild(t);
-}
-// Need to incorporate google docs style of saving
+window.addEventListener('load', function() { 
+  console.log('All assets are loaded') 
+  document.getElementById("makingTask").onclick = function(){
+    event.preventDefault()
+
+    var newTask = {
+      "name" : document.getElementById("taskName").value,
+      "user" : document.getElementById("name").value,
+      "helpneeded": document.getElementById("address").value
+    }
+
+    fetch("https://6rvpnnte.brev.dev/api/Form", {method: "POST", body:JSON.stringify(newTask)} )
+    fetch("https://6rvpnnte.brev.dev/api/Form").then(response => response.json())
+.then(data => {
+  console.log('Success:', data);
+  data.forEach(elem => {console.log(elem)})
+})
+
+    console.log("I've been clicked")
+  }
+})
+
+  // <div class="container">
+  //   <label for="taskName" class="sr-only">Help Needed</label>
+  //   <input type="text" id="taskName" class="form-control" placeholder="Task Name" required autofocus>
+  //   <br></br>
+  //   <label for="name" class="sr-only">Name</label>
+  //   <input type="text" id="name" class="form-control" placeholder="Name" required>
+  //   <br></br>
+  //   <label for="address" class="sr-only">Address</label>
+  //   <input type="text" id="address" class="form-control" placeholder="Address" required>
+  //   <br></br>
+  //   <button class="btn btn-lg btn-primary btn-block" type="button" id="makingTask">Create Task</button>
+  // </div>
