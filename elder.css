@@ -1,0 +1,76 @@
+body {
+    font-family: roboto, sans-serif; 
+    font-style: normal;
+}
+
+prompt {
+    position: absolute;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+.namelabel {
+    position: absolute;
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nameinput {
+    position: absolute;
+    margin-top: 170px;
+    left: 155px;
+    margin-left: 20%;
+}
+
+.taskinput {
+    position: absolute;
+    left: 0;
+    margin-top: 210px;
+    height: 220px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.addresslabel {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.addressinput {
+    position: absolute;
+    margin-top: 515px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.createtask {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    border-radius: 40px; 
+    margin-left: 43%;
+    margin-top: 570px;
+    height: 35px;
+    width: 130px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+back { 
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+}
