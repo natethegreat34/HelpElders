@@ -8,8 +8,10 @@ window.addEventListener('load', function(){
     node.onclick = function(){
       console.log(task.name)
       console.log(key)
-      fetch("https://6rvpnnte.brev.dev/api/Form"+ "?id="+key , {method: "DELETE"})
-      node.style.display="none"
+      if (confirm("Are you sure you would like to delete the task?")){
+        fetch("https://6rvpnnte.brev.dev/api/Form"+ "?id="+key , {method: "DELETE"})
+        node.style.display="none"
+      }
     }
     var textnode = document.createTextNode("| Task: " + task.name + " | Name: " + task.user + " | Address: " + task.helpneeded+ " |");
     node.appendChild(textnode);
