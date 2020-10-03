@@ -31,20 +31,25 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <link rel="stylesheet" href="elder.css">
+    <link rel="stylesheet" href="https://use.typekit.net/saw8lwn.css">
   </head>
   <body class="text-center">
+
+      <back>
+      <a href="url"><img src="pics/back.png" id="backbutton" width = 10px> BACK </a>
+      </back>
+
     <form class="form-signin">
 
-  <h1 class="h3 mb-3 font-weight-normal">Create A Task</h1>
-  <label for="taskName" class="sr-only">Task Name</label>
-  <input type="text" id="taskName" class="form-control" placeholder="Task Name" required autofocus>
-  <label for="name" class="sr-only">Your Name</label>
-  <input type="text" id="name" class="form-control" placeholder="Name" required>
-  <label for="address" class="sr-only">Your Address</label>
-  <input type="text" id="address" class="form-control" placeholder="Address" required>
+  <prompt>How can we help?</prompt>
+  <label for="Name" class="namelabel">Nice to meet you! <br />What is your name?</label>
+  <input type="text" id="name" class="nameinput" placeholder="Name" required>
+  <input type="text" id="taskName" class="taskinput" placeholder="Please type your request here. One of our volunteers will be ready to help!" required autofocus>
+  <label for="address" class="addresslabel">Please provide us with your address so our volunteers know where to find you.</label>
+  <input type="text" id="address" class="addressinput" placeholder="Address (address, city, state, zip code)" required>
 
-  <button class="btn btn-lg btn-primary btn-block" type="button" id="makingTask">Create Task</button>
+  <button class="createtask" type="button" id="makingTask">REQUEST</button>
 </form>
 </body>
 

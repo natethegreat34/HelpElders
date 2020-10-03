@@ -1,0 +1,69 @@
+body {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    position: relative;
+    left: 600px;
+    top: 100px;
+    text-align: center
+}
+
+headImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+hello {
+    position: absolute;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+greeting {
+    position: absolute;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 270px;
+}
+
+homeButtons {
+    position: absolute;
+    padding-top: 350px;
+}
+
+button {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    border-radius: 30px
+}
+
+.explore {
+    height: 50px;
+    width: 160px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.help {
+    height: 50px;
+    width: 220px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a {
+    position: absolute;
+    padding-top: 430px;
+    font-size: 14px;
+}
+
+what {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 25px;
+    padding-right: 80px;
+    font-size: 18px;
+    font-weight: 700;
+}
