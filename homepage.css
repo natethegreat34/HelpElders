@@ -51,7 +51,7 @@ button {
     font-size: 20px;
 }
 
-a {
+a not(button) {
     position: absolute;
     padding-top: 430px;
     font-size: 14px;
