@@ -1,6 +1,9 @@
 body {
-    font-family: roboto, sans-serif; 
+    font-family: roboto, sans-serif;
     font-style: normal;
+    position: relative;
+    left: 600px;
+    top: 100px;
 }
 
 headImg {
