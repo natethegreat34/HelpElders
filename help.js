@@ -2,6 +2,7 @@ window.addEventListener('load', function() { 
   console.log('All assets are loaded') 
   document.getElementById("makingTask").onclick = function(){
     if (confirm("Are you sure you would like to submit the task?")){
+
       event.preventDefault()
 
       var newTask = {
@@ -21,6 +22,9 @@ window.addEventListener('load', function() { 
   })
 
       console.log("I've been clicked")
+      document.getElementById("taskName").value='';
+      document.getElementById("name").value='';
+      document.getElementById("address").value='';
     }
 }
 })

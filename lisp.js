@@ -13,7 +13,7 @@ window.addEventListener('load', function(){
         node.style.display="none"
       }
     }
-    var textnode = document.createTextNode("| Task: " + task.name + " | Name: " + task.user + " | Address: " + task.helpneeded+ " |");
+    var textnode = document.createTextNode("||| Task: " + task.name + " ||| Name: " + task.user + " ||| Address: " + task.helpneeded+ " |||");
     node.appendChild(textnode);
     document.getElementById("myList").appendChild(node)
     // var button = document.createElement("button");
