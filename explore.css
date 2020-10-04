@@ -41,9 +41,11 @@ expcaption {
 
 news1 {
     position: absolute;
-    margin-top: 420px;
-    margin-left: 17%;
+    margin-top: 440px;
+    margin-left: 15%;
+    width: 394px;
     padding: 3px;
+    opacity: 0.7;
     background-color: white;
 }
 
@@ -55,12 +57,13 @@ news1 {
 }
 
 news2 {
-    position: absolute;
-    margin-top: 420px;
-    right:0;
-    margin-right: 26%;
-    padding: 3px;
-    background-color: white;
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 55.69%;
+  width: 394px;
+  padding: 3px;
+  opacity: 0.7;
+  background-color: white;
 }
 
 #news3 {
@@ -68,10 +71,28 @@ news2 {
     margin-top: 510px;
     margin-left: 15%;
 }
+news3{
+  position: absolute;
+  margin-top: 730px;
+  margin-left: 15%;
+  width: 394px;
+  padding: 3px;
+  opacity: 0.7;
+  background-color: white;
+}
 
 #news4 {
     position: absolute;
     margin-top: 510px;
     right:0;
     margin-right: 20%;
+}
+news4 {
+  position: absolute;
+  margin-top: 692px;
+  margin-left: 55.69%;
+  width: 394px;
+  padding: 3px;
+  opacity: 0.7;
+  background-color: white;
 }
