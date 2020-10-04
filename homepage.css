@@ -2,7 +2,6 @@ body {
     font-family: roboto, sans-serif;
     font-style: normal;
     position: relative;
-    left: 600px;
     top: 100px;
 }
 
@@ -16,19 +15,22 @@ hello {
     position: absolute;
     font-weight: 700;
     font-size: 50px;
-    padding-top: 200px;
+    margin-top: 100px;
+    margin-left: 25%;;
 }
 
 greeting {
     position: absolute;
     font-weight: 550;
     font-size: 20px;
-    padding-top: 270px;
+    margin-top: 180px;
+    margin-left: 25%;;
 }
 
 homeButtons {
     position: absolute;
-    padding-top: 350px;
+    margin-top: 280px;
+    margin-left: 25%;
 }
 
 button {
@@ -42,6 +44,8 @@ button {
     width: 160px;
     font-weight: 500;
     font-size: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 .help {
@@ -53,16 +57,45 @@ button {
 
 a not(button) {
     position: absolute;
-    padding-top: 430px;
+    margin-top: 430px;
     font-size: 14px;
 }
 
-what {
+.volunteer {
     position: absolute;
+    margin-top: 370px;
+    margin-left: 25%;;
+}
+
+what {
+    position: fixed;
     bottom: 0;
+    margin-bottom: 25px;
     right: 0;
-    padding-bottom: 25px;
-    padding-right: 80px;
+    margin-right: 80px;
     font-size: 18px;
     font-weight: 700;
+}
+
+.headerImg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 110px;
+}
+
+.houseImg {
+    position: absolute;
+    height: 300px;
+    margin-left: 52%;
+    margin-top: 100px;
+}
+
+.aboutus {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 65px;
+    margin-bottom: 6px;
+    margin-right: 10px;
 }

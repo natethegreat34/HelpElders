@@ -1,0 +1,77 @@
+body {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+}
+
+back {
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+explore {
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+
+expcaption {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 15%;
+}
+
+#explorehand {
+    position: fixed;
+    right: 0;
+    margin-top: 80px;
+    height: 270px;
+}
+
+#news1 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 15%;
+}
+
+news1 {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 17%;
+    padding: 3px;
+    background-color: white;
+}
+
+#news2 {
+    position: absolute;
+    margin-top: 220px;
+    right:0;
+    margin-right: 20%;
+}
+
+news2 {
+    position: absolute;
+    margin-top: 420px;
+    right:0;
+    margin-right: 26%;
+    padding: 3px;
+    background-color: white;
+}
+
+#news3 {
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 15%;
+}
+
+#news4 {
+    position: absolute;
+    margin-top: 510px;
+    right:0;
+    margin-right: 20%;
+}
