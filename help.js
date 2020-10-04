@@ -1,7 +1,7 @@
 window.addEventListener('load', function() { 
   console.log('All assets are loaded') 
   document.getElementById("makingTask").onclick = function(){
-    if (confirm("Are you sure you would like to delete the task?")){
+    if (confirm("Are you sure you would like to submit the task?")){
       event.preventDefault()
 
       var newTask = {
