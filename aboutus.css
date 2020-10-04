@@ -1,0 +1,54 @@
+body {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+}
+
+back {
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+aboutus {
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+
+#hand {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 13%;
+    height: 250px;
+}
+
+about1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 230px;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+#handshake {
+    position: absolute;
+    margin-top: 520px;
+    right: 0;
+    margin-right: 20%;
+    height: 180px;
+}
+
+about2 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 520px;
+    margin-left: 15%;
+    margin-right: 60%;
+    margin-bottom: 150px;
+}
