@@ -37,7 +37,7 @@
   <body class="text-center">
 
       <back>
-      <a href="homepage.html"><img src="pics/back.png" id="backbutton" width = 10px> BACK </a>
+      <a href="homepage.html"><img src="back.png" id="backbutton" width = 10px> BACK </a>
       </back>
 
     <form class="form-signin">
@@ -45,11 +45,13 @@
   <prompt>How can we help?</prompt>
   <label for="Name" class="namelabel">Nice to meet you! <br />What is your name?</label>
   <input type="text" id="name" class="nameinput" placeholder="Name" required>
-  <textarea type="text" id="taskName" class="taskinput" rows="3" cols="40" placeholder="Please type your request here. One of our volunteers will be ready to help!"required></textarea>
+  <input type="text" id="taskName" class="taskinput" placeholder="Please type your request here. One of our volunteers will be ready to help!" required autofocus>
   <label for="address" class="addresslabel">Please provide us with your address so our volunteers know where to find you.</label>
   <input type="text" id="address" class="addressinput" placeholder="Address (address, city, state, zip code)" required>
 
   <button class="createtask" type="button" id="makingTask">REQUEST</button>
+        
+        <img src="howhelp.png" id="howhelp" class= "howhelp">
 </form>
 </body>
 

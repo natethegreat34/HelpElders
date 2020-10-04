@@ -8,7 +8,7 @@ prompt {
     font-weight: 700;
     font-size: 38px;
     margin-top: 70px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 input::placeholder {
@@ -20,7 +20,7 @@ input::placeholder {
     margin-top: 150px;
     font-weight: 700;
     font-size: 15px;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
 }
 
@@ -28,7 +28,7 @@ input::placeholder {
     position: absolute;
     margin-top: 170px;
     left: 155px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 .taskinput {
@@ -37,14 +37,14 @@ input::placeholder {
     margin-top: 210px;
     height: 220px;
     width: 60%;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
 }
 
 .addresslabel {
     position: absolute;
     margin-top: 460px;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
 }
 
@@ -52,7 +52,7 @@ input::placeholder {
     position: absolute;
     margin-top: 515px;
     width: 60%;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
 }
 
@@ -60,7 +60,7 @@ input::placeholder {
     font-family: roboto, sans-serif;
     font-style: normal;
     border-radius: 40px;
-    margin-left: 43%;
+    margin-left: 41%;
     margin-top: 570px;
     height: 35px;
     width: 130px;
@@ -73,4 +73,11 @@ back {
     top: 0;
     margin-top: 15px;
     margin-left: 15px;
+}
+
+.howhelp {
+    position: fixed;
+    bottom: -100px;
+    right: 40px;
+    height: 300px;
 }
